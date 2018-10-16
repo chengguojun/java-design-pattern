@@ -10,15 +10,17 @@ package singleton;
 public class SingletDemo2 {
     //
     private static SingletDemo2 singletDemo2;
-    private SingletDemo2(){}
+
+    private SingletDemo2() {
+    }
+
     // 资源利用率高，但是并发效率低
-    public static synchronized SingletDemo2 getInstance(){
-        if(singletDemo2==null){
+    public static synchronized SingletDemo2 getInstance() {
+        if (singletDemo2 == null) {
             return new SingletDemo2();
         }
         return singletDemo2;
     }
-
 
 
 }

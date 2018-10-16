@@ -2,7 +2,7 @@ package singleton;
 
 /**
  * @ClassName SingletDemo4
- * @Description 静态内部类实现方式（也就是懒加载）
+ * @Description 静态内部类实现方式（也就是懒加载） 线程安全，调用效率高，实现延时加载
  * @Author ChengGuojun
  * @Date 2018-10-16 21:43
  * @Version 1.0
